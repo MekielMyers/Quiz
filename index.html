@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="/quiz/quiz.css">
+</head>
+
+<body>
+    
+    <div id="questions">Press Next to Start</div>
+    <div class="container">
+        <div class="choices" onclick="check(1)"></div>
+        <div class="choices" onclick="check(2)"></div>
+        <div class="choices" onclick="check(3)"></div>
+        <div class="choices" onclick="check(4)"></div>
+    </div>
+    <button onclick="prev()">Prev</button>
+    <button id="sub" onclick="next()">Next</button>
+    <div id="test"></div>
+    
+</body>
+<script src="/quiz/quiz.js"></script>
+</html>
